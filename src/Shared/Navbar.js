@@ -1,5 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, animateScroll as scroll} from 'react-scroll'
 function Navbar() {
+
+  const [nav, setNav] = useState(false)
+    const handleClick = () => setNav(!nav)
+
+    const handleClose =()=> setNav(!nav)
+
   return (
     <div class="navbar">
   <div class="navbar-start lg:ml-8">
@@ -19,10 +26,10 @@ function Navbar() {
   </div>
   <div class="navbar-end hidden lg:flex lg:mr-8">
     <ul class="menu menu-horizontal px-1">
-        <li><a className='text-xl font-semibold'>About</a></li>
-        <li><a className='text-xl font-semibold'>Services</a></li>
-        <li><a className='text-xl font-semibold'>Blogs</a></li>
-        <li><a className='text-xl font-semibold'>Contact Us</a></li>
+        <li><Link to='footer' smooth={true} duration={500}><a className='text-xl font-semibold'>About</a></Link></li>
+        <li><Link to='footer' smooth={true} duration={500}><a className='text-xl font-semibold'>Services</a></Link></li>
+        <li><Link to='footer' smooth={true} duration={500}><a className='text-xl font-semibold'>Blogs</a></Link></li>
+        <li><Link to='footer' smooth={true} duration={500}><a className='text-xl font-semibold'>Contact Us</a></Link></li>
     </ul>
   </div>
 </div>
