@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 
 function Footer() {
   return (
-    <div name='footer' className='lg:mt-20 mt-4'>
+    <div name='footer' className='lg:mt-8 mt-4'>
       <footer class="footer py-8 px-20 bg-gray-300 text-black">
   <div>
     <h2 class="text-lg font-bold">Company</h2>
