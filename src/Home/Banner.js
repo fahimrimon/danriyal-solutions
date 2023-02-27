@@ -11,11 +11,11 @@ function Banner() {
        
        {/* Farmer Section */}
       <div>
-      <div class="hero">
-    <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src="https://i.ibb.co/yVWPTMp/Farmer.jpg" class="max-w-sm lg:max-w-xl lg:ml-40 rounded-md shadow-xl" />
+      <div className="hero">
+    <div className="hero-content flex-col lg:flex-row-reverse">
+    <img src="https://i.ibb.co/yVWPTMp/Farmer.jpg" className="max-w-sm lg:max-w-xl lg:ml-40 rounded-md shadow-xl" />
     <div className='max-w-[100vw] lg:mr-40'>
-      <div class="py-6 text-xl font-bold text-black leading-relaxed">Committed to significantly ease our <br/> lives with a little help from our <br/> products and services</div>
+      <div className="py-6 text-xl font-bold text-black leading-relaxed">Committed to significantly ease our <br/> lives with a little help from our <br/> products and services</div>
     </div>
   </div>
      </div>
@@ -23,11 +23,11 @@ function Banner() {
 
       {/* Technology part */}
       <div>
-      <div class="hero mt-8 lg:mt-40">
-     <div class="hero-content flex-col lg:flex-row lg:space-x-80">
-    <img src="https://i.ibb.co/xm3SBxM/Robotics.jpg" class="max-w-sm lg:max-w-xl max-h-72 rounded-md shadow-xl" />
+      <div className="hero mt-8 lg:mt-40">
+     <div className="hero-content flex-col lg:flex-row lg:space-x-80">
+    <img src="https://i.ibb.co/xm3SBxM/Robotics.jpg" className="max-w-sm lg:max-w-xl max-h-72 rounded-md shadow-xl" />
     <div>
-      <p class="py-6 text-xl font-bold text-black leading-relaxed">Benefitting others through <br/> the use of technology</p>
+      <p className="py-6 text-xl font-bold text-black leading-relaxed">Benefitting others through <br/> the use of technology</p>
     </div>
    </div>
    </div>
