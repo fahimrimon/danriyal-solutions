@@ -11,7 +11,7 @@ function Services() {
     infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 4,
+    slidesToScroll: 3,
     initialSlide: 0,
     responsive: [
       {
@@ -41,18 +41,22 @@ function Services() {
     ]
   };
   return (
-    <div className='my-32'>
+    <div className='slickgap'>
+      <div className='text-center'>
+        <h2 className='text-red-500 text-xl mb-2'>Services</h2>
+        <h2 className='text-4xl font-semibold mb-8'>We Provide Prominent <span className='text-blue-500'>Technology Solutions</span></h2>
+        <p className='text-base mb-16'>Danriyal Solutions Technologies, Worldwide based custom software development & consulting company focusing on web, mobile, desktop & embedded software development. It’s committed to meet the highest of ethical standards of work by implementing web & mobile solutions without making any compromise on their quality & functionality. & get back to you within one business day with free consultation & to discuss the next steps.</p>
+      </div>
         <Slider {...settings}>
           {ServiceData.map((item, index) =>(
-            <div key={index} className="card max-w-lg h-96 bg-base-100 shadow-lg">
+            <div key={index} className="card h-80 w-32 shadow-sm rounded-bl-lg rounded-tr-lg border border-black">
             <figure className="px-10 pt-10">
-              <img src={item.img} alt="Shoes" className="rounded-xl w-16" />
+              <img src={item.img} alt="img" className="rounded-xl w-16 h-16" />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">{item.title}</h2>
               <p>{item.des}</p>
               <div className="card-actions">
-                <button className="btn btn-primary fixed-bottom">Buy Now</button>
               </div>
             </div>
           </div>

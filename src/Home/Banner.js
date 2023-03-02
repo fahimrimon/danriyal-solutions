@@ -2,7 +2,7 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div>
+    <div className='mb-8 lg:mb-40'>
       {/* Banner Section */}
       <div>
       <img className='w-screen h-[90vh]' src="https://i.ibb.co/DgBHrLY/Cover.jpg" alt="Cover"/>
@@ -24,8 +24,8 @@ function Banner() {
       {/* Technology part */}
       <div>
       <div className="hero mt-8 lg:mt-40">
-     <div className="hero-content flex-col lg:flex-row lg:space-x-80">
-    <img src="https://i.ibb.co/xm3SBxM/Robotics.jpg" className="max-w-sm lg:max-w-xl max-h-72 rounded-md shadow-xl" />
+     <div className="hero-content flex-col lg:flex-row lg:space-x-96">
+    <img src="https://i.ibb.co/xm3SBxM/Robotics.jpg" className="max-w-sm lg:max-w-xl max-h-64 rounded-md shadow-xl" />
     <div>
       <p className="py-6 text-xl font-bold text-black leading-relaxed">Benefitting others through <br/> the use of technology</p>
     </div>
