@@ -6,7 +6,7 @@ function Footer() {
   const year = date.getFullYear();
 
   return (
-    <div name='footer' className='lg:mt-8 mt-4 bg-gray-300'>
+    <div name='footer' className='mt-12 bg-gray-300'>
       <footer className="footer grid-flow-col py-12 px-8 lg:px-24 text-black">
   <div className='grid-flow-row gap-4 md:place-self-center md:justify-self-start'>
     <span className="font-bold text-xl text-black font-serif">Danriyal Solutions</span> 

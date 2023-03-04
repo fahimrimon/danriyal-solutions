@@ -10,13 +10,17 @@ const ContactUs = () => {
 //        ;
 //   }
   return (
-    <div className="mt-8 lg:mt-16">
+    <div name='contactus' className="mt-32 lg:mt-44">
+      <div className='text-center'>
+        <h2 className='text-red-500 text-xl mb-2'>Contact Us</h2>
+        <h2 className='text-4xl font-semibold mb-5'>Talk to Our Sales <span className="text-blue-500">& Marketing Department</span> Team</h2>
+        </div>
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse ">
           <img src="https://static.vecteezy.com/system/resources/previews/003/578/834/non_2x/online-support-illustration-flat-design-concept-vector.jpg" className="hidden lg:block lg:max-w-lg maz-w-sm rounded-lg lg:ml-60" alt="" />
           <form>
           <div className="lg:ml-8">
-            <h1 className="text-3xl font-bold text-center font-mono mb-4">Contact Us</h1>
+            <h1 className="text-2xl font-bold text-green-500 text-center font-mono mb-4">Contact Us</h1>
             <div className="text-center">
               <input type="text" placeholder="Name" name="name" className="form-control input w-72 max-w-lg border rounded-full border-blue-400 mb-4" />
               <input type="email" placeholder="Email" name="user_email" className="form-control input w-72 max-w-xs border rounded-full border-blue-400 mb-4" />

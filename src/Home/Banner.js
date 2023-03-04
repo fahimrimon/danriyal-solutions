@@ -2,11 +2,11 @@ import React from 'react'
 
 function Banner() {
   return (
-    <div className='mb-8 lg:mb-40'>
+    <div className='mb-16 lg:mb-40'>
       {/* Banner Section */}
       <div>
       <img className='w-screen h-[90vh]' src="https://i.ibb.co/DgBHrLY/Cover.jpg" alt="Cover"/>
-      <h2 className='text-center font-bold text-2xl lg:my-24 my-8'> <span>Our mission is to make</span> <br/> <span className='text-blue-500 '>world's latest technology</span><br/> <span className='text-green-500'>accesible</span> and <span className='text-green-500'>beneficial</span> for all</h2>
+      <h2 className='text-center font-bold text-3xl lg:my-24 my-8'> <span>Our mission is to make</span> <br/> <span className='text-blue-500 '>world's latest technology</span><br/> <span className='text-green-500'>accesible</span> and <span className='text-green-500'>beneficial</span> for all</h2>
       </div>
        
        {/* Farmer Section */}

@@ -41,7 +41,7 @@ function Services() {
     ]
   };
   return (
-    <div className='slickgap'>
+    <div name='services' className='slickgap'>
       <div className='text-center'>
         <h2 className='text-red-500 text-xl mb-2'>Services</h2>
         <h2 className='text-4xl font-semibold mb-8'>We Provide Prominent <span className='text-blue-500'>Technology Solutions</span></h2>
