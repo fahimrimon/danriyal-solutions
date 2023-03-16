@@ -7,20 +7,10 @@ function Footer() {
 
   return (
     <div name='footer' className='mt-12 bg-gray-300'>
-      <footer className="footer grid-flow-col py-12 px-8 lg:px-24 text-black">
+      <footer className="footer grid-flow-col py-8 px-4 lg:px-52 text-black">
   <div className='grid-flow-row gap-4 md:place-self-center md:justify-self-start'>
     <span className="font-bold text-xl text-black font-serif">Danriyal Solutions</span> 
-    <a className="link no-underline text-base text-black">About</a> 
-    <a className="link no-underline text-base text-black">Services</a> 
-    <a className="link no-underline text-base text-black">Blogs</a> 
-    <a className="link no-underline text-base text-black">Contact Us</a>
-  </div> 
-  <div className='grid-flow-row gap-4 md:place-self-center md:justify-self-center'>
-    <span className="font-bold text-xl text-black font-serif">What We Do</span> 
-    <a className="link no-underline text-base text-black">Web Development</a> 
-    <a className="link no-underline text-base text-black">App Development</a> 
-    <a className="link no-underline text-base text-black">UI/UX Design</a> 
-    <a className="link no-underline text-base text-black">Backend Development</a>
+    <h2 className="link no-underline text-base text-black font-semibold">Thanks for visiting Danriyal Solutions</h2>
   </div> 
   <div className='grid-flow-row gap-2 md:place-self-start md:justify-self-end'>
     <span className="font-bold text-xl text-black font-serif mb-4">Social Links</span> 
@@ -32,7 +22,7 @@ function Footer() {
   </div>
 </footer>
 <div className='pb-8'>
-<div className='bg-black h-px mx-8 lg:mx-24'></div>
+<div className='bg-black h-px mx-4 lg:mx-32'></div>
 <h2 className='text-center mt-4 text-black '>Copyright © {year} Danriyal Solutions</h2>
 </div>
     </div>

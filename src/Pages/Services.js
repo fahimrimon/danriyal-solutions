@@ -8,10 +8,13 @@ import './Services.css';
 function Services() {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: "linear",
     initialSlide: 0,
     responsive: [
       {
@@ -26,8 +29,8 @@ function Services() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
@@ -43,10 +46,16 @@ function Services() {
   return (
     <div name='services' className='slickgap'>
       <div className='text-center'>
-        <h2 className='text-red-500 text-xl mb-2'>Services</h2>
-        <h2 className='text-4xl font-semibold mb-8'>We Provide Prominent <span className='text-blue-500'>Technology Solutions</span></h2>
-        <p className='text-base mb-16'>Danriyal Solutions Technologies, Worldwide based custom software development & consulting company focusing on web, mobile, desktop & embedded software development. It’s committed to meet the highest of ethical standards of work by implementing web & mobile solutions without making any compromise on their quality & functionality. & get back to you within one business day with free consultation & to discuss the next steps.</p>
+
+
+        {/* Service heading part */}
+        <h2 className='text-red-500 text-4xl mb-2'>Services</h2>
+        <h2 className='text-2xl font-semibold mb-4'>We Provide Prominent Technology Solutions</h2>
+        <p className='text-base text-lg mb-16'>Danriyal Solutions Technologies, Worldwide based custom software development & consulting company focusing on web, mobile, desktop & embedded software development. It’s committed to meet the highest of ethical standards of work by implementing web & mobile solutions without making any compromise on their quality & functionality. & get back to you within one business day with free consultation & to discuss the next steps.</p>
       </div>
+
+
+      {/* Service Slider */}
         <Slider {...settings}>
           {ServiceData.map((item, index) =>(
             <div key={index} className="card h-80 w-32 shadow-sm rounded-bl-lg rounded-tr-lg border border-black">
@@ -55,7 +64,7 @@ function Services() {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">{item.title}</h2>
-              <p>{item.des}</p>
+              <p className='text-lg'>{item.des}</p>
               <div className="card-actions">
               </div>
             </div>

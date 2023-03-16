@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "name": "Chat GPT",
+      "details": "The technology is based on a neural network known as a Transformer, which has been trained on a massive dataset of text from the internet. By analyzing patterns and structures in this data, the network is able to generate new text that is coherent, fluent, and often quite similar to human-written text.....",
+      "img":"https://images.imyfone.com/filme/assets/article/chat-gpt.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Software Quality Assurance",
+        "details": "Software Quality Assurance (SQA) is simply a way to assure quality in the software. It is the set of activities which ensure processes, procedures as well as standards are suitable for the project and implemented correctly. Software Quality Assurance is a process which works parallel to development of software.....",
+        "img":"https://media.istockphoto.com/id/1292486673/vector/sqa-software-quality-assurance-acronym-business-concept-background.jpg?s=612x612&w=0&k=20&c=lPrfIyhHoWmbyXtmVRmIBHcQvbAGtgPo9or7QLCyZbY="
+      },
+      {
+        "id": "3",
+        "name": "UI/UX Design",
+        "details": "The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone. In this sequence of four courses.....",
+        "img":"https://img.freepik.com/free-vector/gradient-ui-ux-background_23-2149052117.jpg"
+      },
+      {
+        "id": "4",
+        "name": "Mobile App Development",
+        "details": "Mobile application development is the set of processes and procedures involved in writing software for small, wireless computing devices, such as smartphones and other hand-held devices. Like web application development, mobile application development has its roots in more traditional software development.....",
+        "img":"https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg"
+      },
+      {
+        "id": "5",
+        "name": "Backend Development",
+        "details": "Backend development is that area of web development that focuses on how a website or web application works. It is what happens behind the scenes, the same way that a restaurant’s chef and his/her staff handles all orders without the customers sitting at their tables seeing them.....",
+        "img":"https://acropolium.com/img/articles/find-backend-developers/img01.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Artificial intelligence",
+        "details": "Artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans......",
+        "img":"https://imageio.forbes.com/specials-images/imageserve/623c6f010ae95f107980e813/Artificial-intelligence-robot/960x0.jpg?format=jpg&width=960"
+      },
+      {
+        "id": "7",
+        "name": "MERN Stack Development",
+        "details": "MERN is one of several variations of the MEAN stack (MongoDB Express Angular Node), where the traditional Angular.js front-end framework is replaced with React.js. Other variants include MEVN (MongoDB, Express, Vue, Node), and really any front-end JavaScript framework can work.....",
+        "img":"https://www.servermania.com/kb/wp-content/uploads/2022/04/KB-MERN-Featured.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Frontend Development",
+        "details": "In reality, frontend development is just as important as back end development. If your web or mobile app does not look good, no one will want to use it. That is why it is important to ensure that you hire a front-end development company that provides excellent frontend development services.....",
+        "img":"https://img.freepik.com/free-vector/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-coding-testing-it-profession-isolated-flat-vector-illustration_613284-304.jpg?w=2000"
+      }
+]

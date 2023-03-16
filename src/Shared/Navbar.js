@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import { Link, animateScroll as scroll} from 'react-scroll'
 function Navbar() {
 
@@ -17,18 +18,18 @@ function Navbar() {
       <ul tabindex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
         <li><Link to='about' smooth={true} duration={500}><a className='text-lg font-semibold'>About</a></Link></li>
         <li><Link to='services' smooth={true} duration={500}><a className='text-lg font-semibold'>Services</a></Link></li>
-        <li><Link to='footer' smooth={true} duration={500}><a className='text-lg font-semibold'>Blogs</a></Link></li>
+        <li><Link to='blogs' smooth={true} duration={500}><a className='text-lg font-semibold'>Blogs</a></Link></li>
         <li><Link to='contactus' smooth={true} duration={500}><a className='text-lg font-semibold'>Contact Us</a></Link></li>
       </ul>
     </div>
-    <img className='h-14 w-14 mr-0' src="https://i.ibb.co/93Y23TX/Danriyal-logo.png" alt="Danriyal-logo"/>
-    <h1 className="text-base font-bold">Danriyal <br/> <span className='pt-4'>Solutions</span></h1>
+    <NavLink to="/"><img className='h-14 w-14 mr-0' src="https://i.ibb.co/93Y23TX/Danriyal-logo.png" alt="Danriyal-logo"/></NavLink>
+    <NavLink to="/"><h1 className="text-base font-bold">Danriyal <br/> <span className='pt-4'>Solutions</span></h1></NavLink>
   </div>
   <div className="navbar-end hidden lg:flex lg:mr-8">
     <ul className="menu menu-horizontal px-1">
         <li><Link to='about' smooth={true} duration={500}><a className='text-xl font-semibold'>About</a></Link></li>
         <li><Link to='services' smooth={true} duration={500}><a className='text-xl font-semibold'>Services</a></Link></li>
-        <li><Link to='footer' smooth={true} duration={500}><a className='text-xl font-semibold'>Blogs</a></Link></li>
+        <li><Link to='blogs' smooth={true} duration={500}><a className='text-xl font-semibold'>Blogs</a></Link></li>
         <li><Link to='contactus' smooth={true} duration={500}><a className='text-xl font-semibold'>Contact Us</a></Link></li>
     </ul>
   </div>

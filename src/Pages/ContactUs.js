@@ -12,8 +12,8 @@ const ContactUs = () => {
   return (
     <div name='contactus' className="mt-32 lg:mt-44">
       <div className='text-center'>
-        <h2 className='text-red-500 text-xl mb-2'>Contact Us</h2>
-        <h2 className='text-4xl font-semibold mb-5'>Talk to Our Sales <span className="text-blue-500">& Marketing Department</span> Team</h2>
+        <h2 className='text-red-500 text-4xl mb-2'>Contact Us</h2>
+        <h2 className='text-2xl font-semibold mb-5'>Talk to Our Sales & Marketing Department Team</h2>
         </div>
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse ">
