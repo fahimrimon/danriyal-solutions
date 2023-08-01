@@ -5,7 +5,7 @@ function Footer() {
   const year = date.getFullYear();
 
   return (
-    <div name='footer' className='mt-12 bg-gray-300'>
+    <div name='footer' className='mt-24 bg-gray-300'>
       <footer className="footer grid-flow-col py-8 px-4 lg:px-52 text-black">
   <div className='grid-flow-row gap-4 md:place-self-center md:justify-self-start'>
     <span className="font-bold text-xl text-black font-serif">Danriyal Solutions</span> 

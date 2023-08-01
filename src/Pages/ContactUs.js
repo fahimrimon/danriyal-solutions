@@ -10,7 +10,7 @@ const ContactUs = () => {
 //        ;
 //   }
   return (
-    <div name='contactus' className="mt-32 lg:mt-44">
+    <div name='contactus' className="mt-20 lg:mt-24">
       <div className='text-center'>
         <h2 className='text-red-500 text-4xl mb-2'>Contact Us</h2>
         <h2 className='text-2xl font-semibold mb-5 text-gray-900'>Talk to Our Sales & Marketing Department Team</h2>

@@ -5,7 +5,7 @@ import useBlogs from '../../hooks/useBlogs';
 function Blogs() {
   const [data] = useBlogs();
     return (
-        <div name='blogs' className='mx-12 lg:mx-32 mt-32 lg:mt-40'>
+        <div name='blogs' className='mx-12 lg:mx-32 mt-24 lg:mt-40'>
             <div className='text-center'>
             <h2 className='text-red-500 text-4xl mb-2'>Our Blogs</h2>
             <h2 className='text-2xl font-semibold mb-4 text-gray-900'>See Worldwide Trending Blogs</h2>

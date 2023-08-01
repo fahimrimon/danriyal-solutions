@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Banner() {
   return (
-    <div className="mb-16 lg:mb-40 bg-white">
+    <div className="bg-white">
       {/* Banner Section */}
       <div>
         <img

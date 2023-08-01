@@ -2,7 +2,7 @@ import React from 'react'
 
 function AboutUs() {
   return (
-    <div name='about' className='mt-36 lg:mt-36 mx-8 lg:mx-36'>
+    <div id='about' className='mt-20 lg:mt-20 mx-8 lg:mx-36'>
         <div className='text-center'>
         <h2 className='text-red-500 text-4xl mb-2'>About Us</h2>
         <h2 className='text-2xl font-semibold mb-4 text-gray-900'>Need to know about the Company</h2>
