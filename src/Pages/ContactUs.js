@@ -13,7 +13,7 @@ const ContactUs = () => {
     <div name='contactus' className="mt-32 lg:mt-44">
       <div className='text-center'>
         <h2 className='text-red-500 text-4xl mb-2'>Contact Us</h2>
-        <h2 className='text-2xl font-semibold mb-5'>Talk to Our Sales & Marketing Department Team</h2>
+        <h2 className='text-2xl font-semibold mb-5 text-gray-900'>Talk to Our Sales & Marketing Department Team</h2>
         </div>
       <div className="hero">
         <div className="hero-content flex-col lg:flex-row-reverse ">
@@ -22,10 +22,10 @@ const ContactUs = () => {
           <div className="lg:ml-8">
             <h1 className="text-2xl font-bold text-green-500 text-center font-mono mb-4">Contact Us</h1>
             <div className="text-center">
-              <input type="text" placeholder="Name" name="name" className="form-control input w-72 max-w-lg border rounded-full border-blue-400 mb-4" />
-              <input type="email" placeholder="Email" name="user_email" className="form-control input w-72 max-w-xs border rounded-full border-blue-400 mb-4" />
+              <input type="text" placeholder="Name" name="name" className="form-control input w-72 max-w-lg border rounded-full border-blue-400 mb-4 bg-white" />
+              <input type="email" placeholder="Email" name="user_email" className="form-control input w-72 max-w-xs border rounded-full border-blue-400 mb-4 bg-white" />
               <textarea
-                className="form-control textarea w-72 max-w-xs rounded-lg border border-blue-400"
+                className="form-control textarea w-72 max-w-xs rounded-lg border border-blue-400 bg-white"
                 placeholder="Your message"
                 name="message"
                 rows={6}
